@@ -21,6 +21,7 @@ research agents and the web apps around them.
 | Project | What it does | Stack |
 |---|---|---|
 | [**n8n-claude-lead-qualifier**](https://github.com/Zotriq/n8n-claude-lead-qualifier) | Scores inbound leads 0–100 with Claude, drafts a reply, waits for Slack approval, then updates HubSpot and sends it via Gmail | n8n · Claude · Slack · HubSpot |
+| [**ai-lead-qualification-agent**](https://github.com/Zotriq/ai-lead-qualification-agent) | Full lead-qualification system: rules + GPT scoring, AI-drafted follow-ups with human approval, a sales dashboard, and HubSpot, Slack and n8n integrations | FastAPI · Next.js · PostgreSQL · Docker |
 | [**pdf-rag-knowledge-assistant**](https://github.com/Zotriq/pdf-rag-knowledge-assistant) | RAG API that answers questions from your PDFs with citations, with OpenAI or Anthropic models | FastAPI · LangChain · pgvector · Docker |
 | [**SpecForge**](https://github.com/Zotriq/SpecForge) | Multi-agent MCP server that turns a one-line feature request into a plan and a full spec | LangGraph · FastMCP · Pydantic |
 | [**research-agent**](https://github.com/Zotriq/research-agent) | Autonomous ReAct agent that searches the web and local files, with a live streaming chat UI | Python · Groq · FastAPI · Next.js |
