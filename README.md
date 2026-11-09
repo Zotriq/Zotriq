@@ -2,6 +2,10 @@
 <h3 align="center">AI Automation Engineer · RAG &amp; LLM Agents · Full-Stack Developer</h3>
 
 <p align="center">
+<a href="https://zotriq.github.io"><b>🌐 zotriq.github.io: portfolio website</b></a>
+</p>
+
+<p align="center">
 I build AI systems that do real work for businesses: lead-qualification workflows, document chatbots,
 research agents and the web apps around them.
 </p>
