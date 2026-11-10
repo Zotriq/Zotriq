@@ -2,7 +2,8 @@
 <h3 align="center">AI Automation Engineer · RAG &amp; LLM Agents · Full-Stack Developer</h3>
 
 <p align="center">
-<a href="https://zotriq.github.io"><b>🌐 zotriq.github.io: portfolio website</b></a>
+<a href="https://zotriq.github.io"><b>🌐 zotriq.github.io: portfolio website</b></a> ·
+<a href="https://zotriq-demos.streamlit.app"><b>▶ Live demos: try my projects in the browser</b></a>
 </p>
 
 <p align="center">
@@ -24,28 +25,31 @@ research agents and the web apps around them.
 
 ### ⭐ Featured projects
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**n8n-claude-lead-qualifier**](https://github.com/Zotriq/n8n-claude-lead-qualifier) | Scores inbound leads 0–100 with Claude, drafts a reply, waits for Slack approval, then updates HubSpot and sends it via Gmail | n8n · Claude · Slack · HubSpot |
-| [**ai-lead-qualification-agent**](https://github.com/Zotriq/ai-lead-qualification-agent) | Full lead-qualification system: rules + GPT scoring, AI-drafted follow-ups with human approval, a sales dashboard, and HubSpot, Slack and n8n integrations | FastAPI · Next.js · PostgreSQL · Docker |
-| [**voice-ai-receptionist**](https://github.com/Zotriq/voice-ai-receptionist) | AI phone receptionist for a dental clinic: books, finds and cancels appointments from the real schedule, transfers to staff, logs every call | Vapi · FastAPI · ElevenLabs · SQLite |
-| [**whatsapp-ai-agent**](https://github.com/Zotriq/whatsapp-ai-agent) | WhatsApp assistant on the official Cloud API: answers in English/Urdu, books appointments with tool calling, hands off to staff | WhatsApp API · OpenAI · FastAPI |
-| [**langgraph-support-agents**](https://github.com/Zotriq/langgraph-support-agents) | Multi-agent support team: supervisor routing, billing/tech/sales specialists, QA review loop, human approval that survives restarts | LangGraph · Python · SQLite checkpoints |
-| [**pdf-rag-knowledge-assistant**](https://github.com/Zotriq/pdf-rag-knowledge-assistant) | RAG API that answers questions from your PDFs with citations, with OpenAI or Anthropic models | FastAPI · LangChain · pgvector · Docker |
-| [**multitenant-rag-saas**](https://github.com/Zotriq/multitenant-rag-saas) | Chat-with-your-docs SaaS backend where PostgreSQL row-level security keeps every company's data isolated | pgvector · RLS · FastAPI |
-| [**stripe-crm-automation**](https://github.com/Zotriq/stripe-crm-automation) | Stripe payments to HubSpot, emails and Slack, with verified webhooks, idempotency and a retry outbox | Stripe · HubSpot · Python |
-| [**n8n-meeting-notes-to-clickup**](https://github.com/Zotriq/n8n-meeting-notes-to-clickup) | Meeting transcript or recording to AI summary, assigned ClickUp tasks and a Slack recap | n8n · Whisper · GPT · ClickUp |
-| [**invoice-extraction-pipeline**](https://github.com/Zotriq/invoice-extraction-pipeline) | Invoice PDFs and scans to structured data with OCR + LLM extraction, accounting checks, and Excel/Sheets export | Tesseract · OpenAI · Claude · FastAPI |
-| [**postgres-mcp-server**](https://github.com/Zotriq/postgres-mcp-server) | Lets AI assistants query PostgreSQL in plain English, with a SQL safety guard and read-only sessions | MCP · PostgreSQL · sqlglot |
-| [**postgres-performance-tuning**](https://github.com/Zotriq/postgres-performance-tuning) | Six real slow queries fixed with measured results (22x–460x faster on 2M orders) | PostgreSQL · EXPLAIN ANALYZE |
-| [**sql-etl-pipeline**](https://github.com/Zotriq/sql-etl-pipeline) | Merges messy CSV exports and a live FX API into clean, deduplicated PostgreSQL tables with an audit log | Python · SQLAlchemy · PostgreSQL · Docker |
-| [**SpecForge**](https://github.com/Zotriq/SpecForge) | Multi-agent MCP server that turns a one-line feature request into a plan and a full spec | LangGraph · FastMCP · Pydantic |
-| [**research-agent**](https://github.com/Zotriq/research-agent) | Autonomous ReAct agent that searches the web and local files, with a live streaming chat UI | Python · Groq · FastAPI · Next.js |
-| [**Digisinc-chatbot**](https://github.com/Zotriq/Digisinc-chatbot) | Customer-support chatbot for an agency website, answering from the company's own documents | FastAPI · Pinecone · Groq · Docker |
-| [**AI-vehicle-analysis**](https://github.com/Zotriq/AI-vehicle-analysis) | Turns raw vehicle work-order history into a maintenance report from a plain-English question | FastAPI · LangChain · Llama 3.3 |
-| [**dietary-estimation-system**](https://github.com/Zotriq/dietary-estimation-system) | Estimates calories, protein and fat from a photo of a meal | YOLOv8 · scikit-learn · FastAPI · React |
-| [**ai-phishing-detector**](https://github.com/Zotriq/ai-phishing-detector) | Flags phishing URLs and scam emails with two ML models | scikit-learn · NLP · Streamlit |
-| [**enterprise-pos**](https://github.com/Zotriq/enterprise-pos) | Point-of-sale and inventory system for retail stores | React · Tailwind CSS |
+Every project below can be tried live, running the real code from its repository.
+
+| Project | What it does | Stack | Live demo |
+|---|---|---|---|
+| [**n8n-claude-lead-qualifier**](https://github.com/Zotriq/n8n-claude-lead-qualifier) | Scores inbound leads 0–100 with Claude, drafts a reply, waits for Slack approval, then updates HubSpot and sends it via Gmail | n8n · Claude · Slack · HubSpot | [▶ Try it](https://zotriq-demos.streamlit.app/n8n-lead-qualifier) |
+| [**ai-lead-qualification-agent**](https://github.com/Zotriq/ai-lead-qualification-agent) | Full lead-qualification system: rules + GPT scoring, AI-drafted follow-ups with human approval, a sales dashboard, and HubSpot, Slack and n8n integrations | FastAPI · Next.js · PostgreSQL · Docker | [▶ Try it](https://zotriq-demos.streamlit.app/lead-qualifier) |
+| [**voice-ai-receptionist**](https://github.com/Zotriq/voice-ai-receptionist) | AI phone receptionist for a dental clinic: books, finds and cancels appointments from the real schedule, transfers to staff, logs every call | Vapi · FastAPI · ElevenLabs · SQLite | [▶ Try it](https://zotriq-demos.streamlit.app/voice-receptionist) |
+| [**whatsapp-ai-agent**](https://github.com/Zotriq/whatsapp-ai-agent) | WhatsApp assistant on the official Cloud API: answers in English/Urdu, books appointments with tool calling, hands off to staff | WhatsApp API · OpenAI · FastAPI | [▶ Try it](https://zotriq-demos.streamlit.app/whatsapp-agent) |
+| [**langgraph-support-agents**](https://github.com/Zotriq/langgraph-support-agents) | Multi-agent support team: supervisor routing, billing/tech/sales specialists, QA review loop, human approval that survives restarts | LangGraph · Python · SQLite checkpoints | [▶ Try it](https://zotriq-demos.streamlit.app/support-agents) |
+| [**pdf-rag-knowledge-assistant**](https://github.com/Zotriq/pdf-rag-knowledge-assistant) | RAG API that answers questions from your PDFs with citations, with OpenAI or Anthropic models | FastAPI · LangChain · pgvector · Docker | [▶ Try it](https://zotriq-demos.streamlit.app/pdf-rag) |
+| [**multitenant-rag-saas**](https://github.com/Zotriq/multitenant-rag-saas) | Chat-with-your-docs SaaS backend where PostgreSQL row-level security keeps every company's data isolated | pgvector · RLS · FastAPI | [▶ Try it](https://zotriq-demos.streamlit.app/multitenant-rag) |
+| [**stripe-crm-automation**](https://github.com/Zotriq/stripe-crm-automation) | Stripe payments to HubSpot, emails and Slack, with verified webhooks, idempotency and a retry outbox | Stripe · HubSpot · Python | [▶ Try it](https://zotriq-demos.streamlit.app/stripe-crm) |
+| [**n8n-meeting-notes-to-clickup**](https://github.com/Zotriq/n8n-meeting-notes-to-clickup) | Meeting transcript or recording to AI summary, assigned ClickUp tasks and a Slack recap | n8n · Whisper · GPT · ClickUp | [▶ Try it](https://zotriq-demos.streamlit.app/meeting-notes) |
+| [**invoice-extraction-pipeline**](https://github.com/Zotriq/invoice-extraction-pipeline) | Invoice PDFs and scans to structured data with OCR + LLM extraction, accounting checks, and Excel/Sheets export | Tesseract · OpenAI · Claude · FastAPI | [▶ Try it](https://zotriq-demos.streamlit.app/invoice-extraction) |
+| [**postgres-mcp-server**](https://github.com/Zotriq/postgres-mcp-server) | Lets AI assistants query PostgreSQL in plain English, with a SQL safety guard and read-only sessions | MCP · PostgreSQL · sqlglot | [▶ Try it](https://zotriq-demos.streamlit.app/postgres-mcp) |
+| [**postgres-performance-tuning**](https://github.com/Zotriq/postgres-performance-tuning) | Six real slow queries fixed with measured results (22x–460x faster on 2M orders) | PostgreSQL · EXPLAIN ANALYZE | [▶ Try it](https://zotriq-demos.streamlit.app/postgres-tuning) |
+| [**sql-etl-pipeline**](https://github.com/Zotriq/sql-etl-pipeline) | Merges messy CSV exports and a live FX API into clean, deduplicated PostgreSQL tables with an audit log | Python · SQLAlchemy · PostgreSQL · Docker | [▶ Try it](https://zotriq-demos.streamlit.app/etl-pipeline) |
+| [**SpecForge**](https://github.com/Zotriq/SpecForge) | Multi-agent MCP server that turns a one-line feature request into a plan and a full spec | LangGraph · FastMCP · Pydantic | [▶ Try it](https://zotriq-demos.streamlit.app/specforge) |
+| [**research-agent**](https://github.com/Zotriq/research-agent) | Autonomous ReAct agent that searches the web and local files, with a live streaming chat UI | Python · Groq · FastAPI · Next.js | [▶ Try it](https://zotriq-demos.streamlit.app/research-agent) |
+| [**hydra-rag**](https://github.com/ahmedjavedcodes/hydra-rag) | Chat with PDFs, Word, PowerPoint, Excel, images and web pages, with cited answers (built with Ahmed Javed) | LangChain · Pinecone · Groq | [▶ Try it](https://zotriq-demos.streamlit.app/hydra-rag) |
+| [**Digisinc-chatbot**](https://github.com/Zotriq/Digisinc-chatbot) | Customer-support chatbot for an agency website, answering from the company's own documents | FastAPI · Pinecone · Groq · Docker | [▶ Try it](https://digisinc.systems/chat) |
+| [**AI-vehicle-analysis**](https://github.com/Zotriq/AI-vehicle-analysis) | Turns raw vehicle work-order history into a maintenance report from a plain-English question | FastAPI · LangChain · Groq | [▶ Try it](https://zotriq-demos.streamlit.app/vehicle-analysis) |
+| [**dietary-estimation-system**](https://github.com/Zotriq/dietary-estimation-system) | Estimates calories, protein and fat from a photo of a meal | YOLOv8 · scikit-learn · FastAPI · React | [▶ Try it](https://zotriq-dietary.streamlit.app/) |
+| [**ai-phishing-detector**](https://github.com/Zotriq/ai-phishing-detector) | Flags phishing URLs and scam emails with two ML models | scikit-learn · NLP · Streamlit | [▶ Try it](https://zotriq-demos.streamlit.app/phishing-detector) |
+| [**enterprise-pos**](https://github.com/Zotriq/enterprise-pos) | Point-of-sale and inventory system for retail stores | React · Tailwind CSS | [▶ Try it](https://zotriq.github.io/enterprise-pos/) |
 
 ### 🛠️ Tech stack
 
@@ -79,9 +83,11 @@ research agents and the web apps around them.
 
 ### 🌐 Websites I've built
 
-- [**fynrose**](https://github.com/Zotriq/fynrose): animated product site for a herbal skincare brand (Next.js, GSAP)
-- [**eatddelight_frontend**](https://github.com/Zotriq/eatddelight_frontend): online menu and WhatsApp ordering for a home-kitchen food business (Next.js, Zustand)
-- [**Digisinc-website**](https://github.com/Zotriq/Digisinc-website): website for a digital marketing agency (React, Framer Motion)
+- **Autonomous Fleet Management SaaS** · [live](https://fleet-inky.vercel.app): fleet platform with AI agents for triage, Q&A and logistics (built with Ahmed Javed)
+
+- [**fynrose**](https://github.com/Zotriq/fynrose) · [live](https://fynrose.shop): animated product site for a herbal skincare brand (Next.js, GSAP)
+- [**eatddelight_frontend**](https://github.com/Zotriq/eatddelight_frontend) · [live](https://eatddelight.com): online menu and WhatsApp ordering for a home-kitchen food business (Next.js, Zustand)
+- [**Digisinc-website**](https://github.com/Zotriq/Digisinc-website) · [live](https://digisinc.systems/): website for a digital marketing agency (React, Framer Motion)
 
 ---
 
